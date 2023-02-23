@@ -2,8 +2,8 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     fontFamily: {
-      primary: 'Orbitron, sans-serif',
-      secondary: 'Inter, sans-serif',
+      primary: 'Roboto, sans-serif',
+      secondary: 'Roboto, sans-serif',
     },
     container: {
       padding: {
@@ -20,13 +20,13 @@ module.exports = {
 
     extend: {
       colors: {
-        body: '#010208',
+        body: '#F9F9F9',
         white: '#fff',
         pink: 'pink',
         transparent: 'transparent',
       },
       boxShadow: {
-        primary: '0px 4px 40px rgba(0, 0, 0, 0.03)',
+        primary: '0px 4px 40px rgba(0, 0, 0, 0.01)',
       },
       backgroundImage: {
         radialBgCircle: "url('/src/assets/img/radial-bg.svg')",
